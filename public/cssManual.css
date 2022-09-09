@@ -1,0 +1,197 @@
+button{
+    cursor: pointer !important;
+}
+
+.dot {
+    height: 56px;
+    width: 56px;
+    background-color: #adc0c4 !important;
+    border-radius: 50%;
+    border-color: transparent;
+    color: #fff !important;
+    display: table-cell !important;
+    vertical-align: middle !important;
+    font-size:22px;
+    float:left;
+    margin-left: 8px;
+    margin-top: 10px;
+    outline: none !important;
+}
+
+.dot:hover{
+    background-color: #ff0000 !important;
+    color: #fff !important;
+}
+
+.selecionado{
+    background-color: #ff0000 !important;
+}
+
+.numerosGerados{
+    height: 45px;
+    width: 45px;
+    background-color: #3e8d49 !important;
+    border-radius: 50%;
+    border-color: transparent;
+    color: #fff !important;
+    vertical-align: middle !important;
+    font-size:22px;
+    margin-left: 8px;
+    margin-top: 10px;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary{
+    background-color: #1100ff !important;
+    border-color: transparent;
+    outline: none !important;
+}
+
+.resultado {
+    height: 45px;
+    width: 40px;
+    border-color: transparent;
+    color: #F78100 !important;
+    display: table-cell !important;
+    vertical-align: middle !important;
+    font-size:20px;
+    float:left;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.resultado_lotofacil {
+    height: 45px;
+    width: 34px;
+    border-color: transparent;
+    color: #3c58c1 !important;
+    display: table-cell !important;
+    vertical-align: middle !important;
+    font-size:20px;
+    float:left;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.section-heading > h3 {
+    font-size: 30px;
+}
+
+.marcado{
+    background-color: #f79c31 !important;
+}
+
+.marcado-lotofacil{
+    background-color: #3c58c1 !important;
+}
+
+/*---- BOTÕES PERSONALIZADOS ------- */
+.btn-roxo{
+    background-color: #5b32b4 !important;
+    border-color: transparent;
+    outline: none !important;
+    color: #FFF;
+}
+
+.btn-azul{
+    background-color: #3c58c1 !important;
+    border-color: transparent;
+    outline: none !important;
+    color: #FFF;
+}
+
+/*----------- NUMEROS QUE MAIS SAIRAM NOS ULTIMOS JOGOS - INICIO ----------*/
+.dezenas-sc__item {
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    margin: 2px;
+    width: 3.2em;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.dezenas-sc {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+}
+
+.dezenas-sc__item--lotomania {
+    border-color: #F78100;
+}
+
+.dezenas-sc__dezena--lotomania {
+    background-color: #fd6532 ;
+}
+
+.dezenas-sc__quantidade--lotomania {
+    background-color: #97602d;
+}
+
+.dezenas-sc__dezena {
+    font-size: 1.3em;
+    font-weight: 700;
+    padding: 0;
+    border-radius: 4px 4px 0 0;
+    flex: 1;
+}
+
+.dezenas-sc__item--lotofacil {
+    border-color: transparent;
+}
+
+.dezenas-sc__dezena--lotofacil {
+    background-color: #305eab ;
+}
+
+.dezenas-sc__quantidade--lotofacil {
+    background-color: #2d6897;
+}
+
+.dezenas-sc__dezena--lotofacil {
+    font-size: 1.3em;
+    font-weight: 700;
+    padding: 0;
+    border-radius: 4px 4px 0 0;
+    flex: 1;
+}
+
+.dezenas-sc__quantidade {
+    font-size: .9em;
+    font-weight: 400;
+    padding: 4px 3px;
+    border-radius: 0 0 4px 4px;
+    line-height: 1;
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+/*----------- NUMEROS QUE MAIS SAIRAM NOS ULTIMOS JOGOS - FIM ----------*/
+
+
+/*------ -----*/
+@media (max-width: 991px) { /* ESTIVER NO CELL */
+    #adsLotomaniaTemplate{
+      display: none;
+    } 
+    #adsLotomaniaCorpo{
+        display: none;
+    } 
+    #adsLotofacilCorpo{
+        display: none;
+    }
+    #adsLotofacilTemplate{
+        display: none;
+    } 
+    #welcome{
+        display: none;
+    } 
+}
